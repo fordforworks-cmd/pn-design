@@ -37,12 +37,12 @@ window.addEventListener('scroll', () => {
 
 // Discord Button
 document.querySelector('.discord-btn').addEventListener('click', () => {
-    window.open('YOUR_DISCORD_LINK', '_blank');
+    window.open('https://discord.gg/T2R7AxFtMc', '_blank');
 });
 
 // Contact Buttons
 document.querySelector('.contact-btn.discord').addEventListener('click', () => {
-    window.open('YOUR_DISCORD_SERVER_LINK', '_blank');
+    window.open('https://discord.gg/T2R7AxFtMc', '_blank');
 });
 
 document.querySelector('.contact-btn.facebook').addEventListener('click', () => {
@@ -76,4 +76,5 @@ document.querySelectorAll('.portfolio-card, .service-card').forEach(el => {
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'all 0.6s ease';
     observer.observe(el);
+
 });
